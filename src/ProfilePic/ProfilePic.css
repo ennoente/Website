@@ -1,0 +1,9 @@
+.pic {
+    position: fixed;
+    top: 80px;
+    left: 80px;
+}
+
+.pic img {
+    border-radius: 150px;
+}

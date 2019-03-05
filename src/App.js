@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import './App.css';
-import profilePic from './img/Thoma Profilbild.png';
+
+import ProfilePic from './ProfilePic/ProfilePic';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
 
-        <div>
-          <img src={profilePic} />
-        </div>
+        <ProfilePic />
+
       </div>
     );
   }
