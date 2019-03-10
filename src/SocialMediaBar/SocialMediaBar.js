@@ -1,7 +1,7 @@
 import React from 'react';
 import './SocialMediaBar.css';
 
-import Icon from '../Icon';
+import Icon from './Icon';
 
 import smb_github from '../img/github.png';
 import smb_twitter from '../img/twitter.png';

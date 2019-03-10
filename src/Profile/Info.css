@@ -1,0 +1,15 @@
+.info {
+    margin-top: 24px;
+}
+
+.info_icon {
+    width: 24px;
+    height: 24px;
+
+    vertical-align: middle;
+}
+
+.info span {
+    font-size: 1rem;
+    margin-left: 15px;
+}

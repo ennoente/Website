@@ -10,3 +10,15 @@
     font-size: 1.2rem;
     text-align: center;
 }
+
+.profile span {
+    font-weight: normal;
+    font-size: 1rem;
+}
+
+.profile p {
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-top: 20px;
+    text-align: left;
+}
