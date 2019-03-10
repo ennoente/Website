@@ -3,6 +3,7 @@ import './NavigationBar.css';
 
 const navigationBar = props => (
     <header className="navigation_bar_container">
+
         <nav className="navigation_bar">
             <div className="navigation_bar_items">
                 <ul className="navigation_bar_items_list">
@@ -16,6 +17,7 @@ const navigationBar = props => (
                 </ul>
             </div>
         </nav>
+
     </header>
 );
 

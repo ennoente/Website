@@ -12,5 +12,21 @@
     font-weight: normal;
     text-align: left;
     font-size: 1.5rem;
-    line-height: 5rem;
+    line-height: 40px;
+}
+
+@media (max-width: 768px) {
+
+    .main_article {
+        width: auto;
+
+        margin-left: 25px;
+        margin-right: 25px;
+        margin-top: 35px;
+    }
+
+    .main_article p {
+
+        font-size: 1.3rem;
+    }
 }

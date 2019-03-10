@@ -6,9 +6,16 @@ const mainArticle = props => (
         <h2>Hi, my name is Enno!</h2>
 
         <p><br/>
-            ... and I have loved programming since I was 13 years old.
-            Having started with my favourite programming language, Java,
-            I can build you anything!
+            I have loved programming since I was 13 years old.
+            Having started with Java in 2011, which is still my favourite
+            programming language in the world, I have been and stil am
+            improving my programming and software development skills every
+            day.
+
+            <br/> <br/>
+
+            Studying to become a primary school teacher, I know what it takes
+            to professionally develop software.
 
         </p>
     </div>
