@@ -1,9 +1,13 @@
 .pic {
-    position: fixed;
-    top: 80px;
-    left: 80px;
+    width: 250px;
+    height: 250px;
+
+    overflow: hidden;
+    margin: 0 auto;
 }
 
 .pic img {
-    border-radius: 150px;
+    border-radius: 100%;
 }
+
+
