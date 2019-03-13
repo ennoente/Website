@@ -1,0 +1,87 @@
+.hamburger_bar_in {
+    display: none;
+
+    width: 100%;
+    height: 56px;
+
+    overflow: hidden;
+
+    vertical-align: middle;
+    transition: height 0.15s ease-out;
+
+}
+
+.hamburger_bar_out {
+    height: 286px;
+    transition: height 0.15s ease-in;
+
+}
+
+
+.hamburger_bar_in li, .hamburger_bar_out li {
+    width: 100%;
+    height: 100%;
+    font-size: 1.2rem;
+
+    line-height: 52px;
+
+    text-align: left;
+    text-indent: 32px;
+}
+
+
+.hamburger_bar_in li:first-child, .hamburger_bar_out li:first-child {
+    background-color: rgba(0, 173, 255, 1);
+}
+
+
+.hamburger_bar_in ul, .hamburger_bar_out ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.hamburger_bar_in li a , .hamburger_bar_out li a {
+    width: auto;
+    text-decoration: none;
+    color: black;
+}
+
+.hamburger_toggle {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 45px;
+    padding: 5px 15px 0 15px;
+
+    color: white;
+    border: 0;
+    font-size: 1.4em;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+}
+
+.crossToggle {
+    background: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 7px 15px 0 15px;
+    color: white;
+    border: 0;
+    font-size: 3em;
+    line-height: 65px;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    z-index: 10000000000000;
+}
+
+.hamburger_toggle_img {
+    opacity: 0.5;
+
+    width: 24px;
+    height: 24px;
+}

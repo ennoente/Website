@@ -11,9 +11,13 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
     .pic {
+        /*
         margin-left: auto;
         margin-right: auto;
+
+        */
+        display: none;
     }
 }

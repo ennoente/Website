@@ -11,13 +11,12 @@ const navigationBar = props => (
                     <li><a href="/">Software</a></li>
                     <li><a href="/">Technology Stack</a></li>
 
-                    <div className="spacer" />
+                    <div className="spacer"/>
 
                     <li><a href="/">Contact</a></li>
                 </ul>
             </div>
         </nav>
-
     </header>
 );
 
