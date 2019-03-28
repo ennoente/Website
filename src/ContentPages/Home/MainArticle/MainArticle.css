@@ -17,6 +17,11 @@
     line-height: 40px;
 }
 
+.main_article h2 {
+    text-align: left;
+    line-height: 96px;
+}
+
 @media (max-width: 992px) {
 
     .main_article {

@@ -12,9 +12,10 @@
 }
 
 .hamburger_bar_out {
-    height: 286px;
-    transition: height 0.15s ease-in;
+    overflow: hidden;
 
+    height: 286px;
+    transition: height 0.15s ease-out;
 }
 
 
