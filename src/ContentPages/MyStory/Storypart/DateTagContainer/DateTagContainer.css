@@ -1,0 +1,13 @@
+.date_tag_container {
+    width: 40%;
+    height: 100px;
+
+    float: left;
+}
+
+.date {
+    width: 100%;
+    text-align: right;
+    margin: 0 0 8px;
+    font-size: 1.3rem;
+}

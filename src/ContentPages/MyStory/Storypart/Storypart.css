@@ -1,0 +1,12 @@
+.storypart {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+
+    margin-bottom: 128px;
+}
+
+.storypart span {
+    float: bottom;
+}

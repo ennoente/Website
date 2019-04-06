@@ -1,5 +1,7 @@
 .info {
     margin-top: 24px;
+    width: 100%;
+    flex-direction: row;
 }
 
 .info_icon {
@@ -11,5 +13,7 @@
 
 .info span {
     font-size: 1rem;
-    margin-left: 15px;
+    font-weight: normal;
+
+    margin-left: 16px;
 }

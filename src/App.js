@@ -5,7 +5,7 @@ import NavigationBar from './NavigationBar/NavigationBar';
 import HamburgerBar from './NavigationBar/HamburgerBar';
 import Home from './ContentPages/Home/Home';
 import SocialMediaBar from './SocialMediaBar/SocialMediaBar';
-import MyStory from './ContentPages/MyStory/MyStory';
+import myStory from './ContentPages/MyStory/MyStory';
 
 /** Has to be imported after the components to keep media queries working */
 import './ContentContainer.css';
@@ -25,7 +25,7 @@ class App extends Component {
                     <HamburgerBar />
 
                     <Route exact path="/" component={Home} />
-                    <Route path="/my-story" component={MyStory} />
+                    <Route path="/my-story" component={myStory} />
 
                     <SocialMediaBar />
                 </div>

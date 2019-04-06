@@ -1,7 +1,9 @@
 .App {
+    position: absolute;
+
     font-weight: bolder;
     letter-spacing: 1px;
+
+    width: 100%;
+    height: 100%;
 }
-
-
-

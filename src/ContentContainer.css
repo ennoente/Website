@@ -1,9 +1,11 @@
 .content_container {
-    max-width: 992px;
+    position: relative;
 
-    margin: 50px auto 0;
+    max-width: 1020px;
+    /* 100% - social_media_bar - nav_bar - margin-top - read_more's height */
+    min-height: calc(100% - 56px - 56px - 50px - 56px) !important;
 
-    padding: 1px 0 96px;
+    margin: 50px auto 96px;
 
     overflow: auto;
 }
@@ -29,7 +31,7 @@
     .content_container {
         margin-left: 25px;
         margin-right: 25px;
-        margin-top: 0;
+        margin-top: 32px;
 
         height: auto;
     }

@@ -1,0 +1,22 @@
+.tag {
+    max-width: 100%;
+    height: fit-content;
+
+    float: right;
+
+    border: 1px dashed #6C6C6C;
+    padding: 2px;
+    width: fit-content;
+
+    margin-bottom: 8px;
+    margin-left: 8px;
+}
+
+.tag span {
+    display: flex;
+    text-align: center;
+    color: #333333;
+    font-size: 18px;
+    letter-spacing: 0;
+    font-weight: normal;
+}

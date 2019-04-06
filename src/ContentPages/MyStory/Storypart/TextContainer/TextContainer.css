@@ -1,0 +1,10 @@
+.text_container {
+    width: 55%;
+    float: right;
+
+    height: fit-content;
+}
+
+.text_container span {
+    font-weight: normal;
+}

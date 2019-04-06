@@ -24,10 +24,14 @@
     height: 100%;
     font-size: 1.2rem;
 
-    line-height: 52px;
+    line-height: 56px;
 
     text-align: left;
     text-indent: 32px;
+}
+
+.hamburger_bar_in li, .hamburger_bar_out li {
+    background-color: gray;
 }
 
 
@@ -45,7 +49,7 @@
 .hamburger_bar_in li a , .hamburger_bar_out li a {
     width: auto;
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .hamburger_toggle {
