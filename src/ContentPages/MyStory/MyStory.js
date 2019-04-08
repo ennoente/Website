@@ -5,6 +5,7 @@ import Storypart1 from './Storypart/impl/Storypart1';
 import Storypart2 from './Storypart/impl/Storypart2';
 import Storypart3 from './Storypart/impl/Storypart3';
 import Storypart4 from './Storypart/impl/Storypart4';
+import Storypart5 from './Storypart/impl/Storypart5';
 
 import DownArrows from './img/down_arrows.png';
 
@@ -17,13 +18,15 @@ class MyStory extends Component {
         <Storypart1 key={1} />,
         <Storypart2 key={2} />,
         <Storypart3 key={3} />,
-        <Storypart4 key={4} />
+        <Storypart4 key={4} />,
+        <Storypart5 key={5} />
     ];
 
     nextStoryDates = [
         '2011',
         '2012',
-        '2013'
+        '2013',
+        '2014-2016'
     ];
 
     constructor(props) {
@@ -55,7 +58,6 @@ class MyStory extends Component {
                     <span>{this.state.nextStoryDate}</span>
                     <img className={'down_arrows'} src={DownArrows}/>
                 </div>
-
             </div>
         );
     }

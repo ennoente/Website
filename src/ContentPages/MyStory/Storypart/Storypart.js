@@ -23,7 +23,7 @@ class Storypart extends React.Component {
         return (
             <div ref={this.divToFocus} className='storypart'>
                 <DateTagContainer date={this.props.date} tags={this.props.tags}/>
-                <TextContainer text={this.props.text}/>
+              <TextContainer text={this.props.text} />
             </div>
         );
     }
