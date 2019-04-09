@@ -1,6 +1,4 @@
 .content_container {
-    position: relative;
-
     max-width: 1020px;
     /* 100% - social_media_bar - nav_bar - margin-top - read_more's height */
     min-height: calc(100% - 56px - 56px - 50px - 56px) !important;

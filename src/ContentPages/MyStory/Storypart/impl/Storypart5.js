@@ -7,8 +7,13 @@ const storypart5 = () => (
     tags={[
       'Break'
     ]}
-    text={'My efforts to program Android apps go unsuccessful. The idea of sharing my software has changed my mindset about programming, though.\n' +
-    'Not being able to program Android I take a break from programming.'}
+    text={(
+      <span>
+        My efforts to program Android apps go unsuccessful. The idea of sharing my software has changed my mindset about programming, though.
+        <br/>
+        Not being able to program Android I take a break from programming.
+      </span>
+    )}
   />
 );
 

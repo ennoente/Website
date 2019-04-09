@@ -1,5 +1,4 @@
 .storypart {
-    position: relative;
     width: 100%;
     height: 100%;
     overflow: auto;
@@ -9,4 +8,8 @@
 
 .storypart span {
     float: bottom;
+}
+
+a {
+    color: rgba(0, 173, 255, 2);
 }
