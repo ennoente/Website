@@ -5,33 +5,36 @@ import NavigationBar from './NavigationBar/NavigationBar';
 import HamburgerBar from './NavigationBar/HamburgerBar';
 import Home from './ContentPages/Home/Home';
 import SocialMediaBar from './SocialMediaBar/SocialMediaBar';
-import myStory from './ContentPages/MyStory/MyStory';
+
+import MyStory from './ContentPages/MyStory/MyStory';
+import Software from './ContentPages/Software/Software';
 
 /** Has to be imported after the components to keep media queries working */
 import './ContentContainer.css';
 
 import {
-    BrowserRouter as Router,
-    Route
+  BrowserRouter as Router,
+  Route
 } from "react-router-dom";
 
 class App extends Component {
-    render() {
-        return (
-            <Router>
-                <div className="App">
-                    <NavigationBar />
+  render() {
+    return (
+      <Router>
+        <div className="App">
+          <NavigationBar/>
 
-                    <HamburgerBar />
+          <HamburgerBar/>
 
-                    <Route exact path="/" component={Home} />
-                    <Route path="/my-story" component={myStory} />
+          <Route exact path="/" component={Home}/>
+          <Route path="/my-story" component={MyStory}/>
+          <Route path='/software' component={Software} />
 
-                    <SocialMediaBar />
-                </div>
-            </Router>
-        );
-    }
+          <SocialMediaBar/>
+        </div>
+      </Router>
+    );
+  }
 }
 
 export default App;
