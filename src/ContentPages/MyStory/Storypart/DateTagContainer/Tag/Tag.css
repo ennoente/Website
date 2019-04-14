@@ -20,3 +20,9 @@
     letter-spacing: 0;
     font-weight: normal;
 }
+
+@media screen and (min-width: 992px) {
+    .tag span {
+        font-size: 1.5rem;
+    }
+}
