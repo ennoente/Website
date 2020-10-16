@@ -1,0 +1,11 @@
+.coming_soon_headline {
+    position: absolute;
+    width: fit-content;
+
+    color: #555555;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
